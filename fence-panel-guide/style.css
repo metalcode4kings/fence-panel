@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+   font-family: 'Avenir', Helvetica, sans-serif !important;
+   /* background-image: url(images/bg-image_fence.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: -100px -750px ; */
+  }
+
+  /* arrows in input */
+    select {
+      background: #fff url(https://static.thenounproject.com/png/551749-200.png) no-repeat 0 90%;
+      background-position: 260px ;
+      background-size: 20px;
+      }
+
+      @media (max-width: 805px) {
+        select {
+          background: #fff url(https://static.thenounproject.com/png/551749-200.png) no-repeat 0 90%;
+          background-position: 450px;
+          background-size: 20px;
+         
+        }
+      
+      }
+
+    
+
+  .top-bg {
+    background-image: url('https://www.fencast.com/wp-content/uploads/2020/04/AdobeStock_199360863-e1586804478944.jpeg');
+    background-size: cover;
+   background-repeat: no-repeat;
+
+  }
+  h1 {
+    color: #1C146B !important;
+  }
+  
+
+  .container {
+    background-color: #F0F0F0 !important;
+  }
+  
+  
+  .top-button{
+    width: 100%;
+    padding: 8px 50px !important;
+    color:white !important;
+    background-color:#1C146B !important;
+    margin-bottom: 18px;
+  }
+
+.underline {
+  width: 150px;
+  border: 3px solid black;
+  margin: auto;
+}
+
+
+.img-logo{
+   position: relative;
+   margin-top: 50px !important;
+   margin-bottom: 90px !important;
+
+  
+ }
+
+ @media (max-width: 2000px) {
+    img {
+      width: 800px;
+     
+    }
+  
+  }
+
+/* cards */
+
+.bg-gray {
+    background-color:#E0E0E0;
+
+}
+
+
+.card-title{
+    color:#1C146B !important;
+
+}
+.underline {
+    background-color:#1C146B !important;
+    width: 300px;
+}
+
+.underlineOne {
+  background-color:white !important;
+  height: 1px;
+  width: 300px;
+}
+
+.card {
+    max-width: 400px;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
+    transition: all .8s;
+   
+  }
+
+  .card-img-top {
+    margin-bottom: 30px !important;
+}
+
+.back .back-content{
+    position: absolute;
+    background-color:white;
+    user-select: none;
+    pointer-events: none;
+    padding:26px;
+    transform: rotateY(180deg);
+    opacity: 0;
+    transition: all .8s;
+    width: 398px;
+    height: 100%;
+}
+
+.rotate:hover .card {
+    transform: rotateY(180deg);
+  }
+
+.rotate:hover .back .back-content{
+    opacity: 1;
+    user-select: auto;
+    pointer-events: auto;
+  }
+
+
+.back-title {
+    font-weight: bold;
+  }
+
+ul {
+  margin:none;
+  }
+
+li {
+    font-size: 20px;
+  }
+
+.search-button {
+    padding-left: 70px;
+    padding-right: 70px;
+  } 
+/* end of cards */
+
+
+
+
+/* bottom and gallery*/
+
+.bg-white {
+    background-color:white;
+    height: 700px;
+  }
+
+.display-7 {
+  font-size: 30px;
+
+  }
+
+
+
+.seeAllButton {
+    background-color: #bc4f07 !important;
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+    color:white;
+    font-size: 23px;
+  }
+
+.col-xl-6 {
+padding: 70px !important;
+  }
+
+/* end of bottom and gallery*/
+
+.card-img-top {
+  height: 500px;
+}
+
+.back-content {
+  margin-top: -620px;
+  height: 100%;
+}
+
+.card-3-back {
+  margin-top: -628px;
+}
+i {
+  text-decoration-style: none;
+  font-style: normal;
+  font-size: 13px;
+
+}
+
+i:hover  {
+cursor: pointer !important;
+}
+
+.footer {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+}
